@@ -4,7 +4,7 @@ import {useUserStore} from "./user";
 import axios from "axios";
 
 type ChatMessage = {
-  messages: string;
+  message: string;
   reply: string;
 };
 
